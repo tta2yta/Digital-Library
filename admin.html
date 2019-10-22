@@ -1,0 +1,56 @@
+<?php
+include_once 'dbconfig.php';
+?>
+<html>
+<head>
+<title>
+</title>
+<link rel="stylesheet" type="text/css" href="reset.css" />
+<link rel="stylesheet" type="text/css" href="style_2.css" />
+<link rel="stylesheet" type="text/css" href="style_3.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div id="header">
+
+</div>
+<div id="main-body">
+
+<div id="add-author">
+<!-- Add Author -->
+<h3 align="center"> Add Authors </h3><br/>
+<form id="add_author" method="" action="">
+<div><label>Author Id</label><input type="text" name="aur_id" value=""></div>
+<div><label>First Name</label><input type="text" name="fname" value=""></div>
+<div><label>Last Name</label><input type="text" value=""></div>
+<div><label>Designation </label><select   name="catagory" >
+<Option > hockey </option>
+<Option>football</option>
+</select></div>
+<div><label>Gender</label><input type =radio name="mf" id="male" value="M">Male
+<input type =radio name="mf" id="female" value="F">Female</div>
+<div><input type="submit" id="searchbtn" value="ADD"></div>
+</form>
+</div>
+
+<!-- Book Information -->
+<div id="add-book">
+
+<h3 align="center"> Book Information </h3><br/>
+<form id="add_book" method="post" action="upload.php" enctype="multipart/form-data">
+<div><label>Isbn</label><input type="text" name="isbn" value=""></div>
+<div><label>Date published</label><input type="text" name="pub_date" value=""></div>
+<div><label>Boook Icon</label><input type="file" name="img_file" ></div>
+<div><label>File </label><input type="file" name="file"></div>
+<div><input type="submit" name="btnupload" value="ADD"></div>
+</form>
+</div>
+
+</div>
+<div id="footer">
+</div>
+
+
+</body>
+</html>

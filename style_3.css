@@ -1,0 +1,44 @@
+#add-book
+{
+float:left;
+width:40%;
+height:90%;
+border:2px solid #4ea0d8;
+border-radius:10px;
+margin:10px;
+
+}
+
+#add-book label
+{
+display:inline-block;
+width:150px;
+font-weight:bold;
+}
+
+#add-book input[type='text']{
+border:#ccc solid 1px;
+border-radius:5px;
+height:25px;
+width:50%;
+}
+
+#add_book div{
+margin-bottom:20px;
+margin-left:5px;
+}
+
+#add-book input[type='submit']{
+display:block;
+margin:auto;
+width:100px;
+color:#fff;
+background:#fa6e3e;
+border:0;
+border-radius:5px;
+}
+
+#add-book input[type='submit']:hover{
+background:#d55427;
+cursor:pointer;
+}
